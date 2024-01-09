@@ -1,6 +1,6 @@
 {
-	"id" : "template",
-	"name" : "Template",
+	"id" : "sij",
+	"name" : "Spa Intex Jeedom",
 	"pluginVersion": "0.1",
 	"specialAttributes" : {
 		"object" : {
@@ -30,10 +30,10 @@
 		"fr_FR": "Template servant de base à la création de plugins pour Jeedom"
 	},
 	"licence": "AGPL",
-	"author": "Jeedom SAS",
-	"require": "4.2",
+	"author": "Bryan Pignerol",
+	"require": "4.3.21",
 	"category": "programming",
-	"hasDependency": false,
+	"hasDependency": true,
 	"hasOwnDeamon": false,
 	"maxDependancyInstallTime": 0,
 	"changelog_beta": "https:\/\/doc.jeedom.com\/#language#\/plugins\/programming\/template\/beta\/changelog",
@@ -45,15 +45,7 @@
 		"video": "Lien vers une video"
 	},
 	"language": [
-		"fr_FR",
-		"en_US",
-		"es_ES",
-		"de_DE",
-		"ru_RU",
-		"id_ID",
-		"it_IT",
-		"ja_JP",
-		"pt_PT"
+		"fr_FR"
 	],
 	"compatibility": [
 		"smart",
